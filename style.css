@@ -42,6 +42,7 @@ h6 {
   font-family: 'Playfair Display', serif;
 }
 a {
+    color: #eaecef;
     text-decoration: underline;
 }
 /*
@@ -50,7 +51,7 @@ a:hover{
 }
 */
 a:visited{
-    color: #b3bac3;
+    color: #b6bdc8;
 }
 
 b {
@@ -65,14 +66,14 @@ body
     -o-font-feature-settings: "liga", "xtex";
     font-feature-settings: "liga", "xtex";
     font-size: 15pt;
-    color: #eaecef;
+    color: #d3d8de;
     clear: center;
     max-width: 30em;
     line-height: 1.35;
     text-align: justify;
     padding: 10px;
     border: 0px;
-    background: #000000;
+    background: #0b0c0f;
     margin: 0px 150px 0px 150px;
     margin: 0 auto;
     background-size: 250px;
@@ -127,4 +128,9 @@ hr {
     background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
     background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
     background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
+}
+
+img {
+    float: right;
+    margin: 2em 0em 1em 1em;
 }
