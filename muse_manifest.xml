@@ -1,0 +1,113 @@
+<manifest alg="2" build="2017.1.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="www.ssbcosmetics.com" resolutions="1x" timestamp="1507847003355">
+  <folder name="css">
+    <file name="site_global.css" crc="444006867"/>
+    <file name="master_a-master.css" crc="134587196" ref="about:contact:testimonials:photo-gallery:get-swatched:index:news:shop:weixi:swarnali:katy:packages"/>
+    <file name="about.css" crc="392081128" ref="about"/>
+    <file name="contact.css" crc="4281892236" ref="contact"/>
+    <file name="testimonials.css" crc="4053996600" ref="testimonials"/>
+    <file name="photo-gallery.css" crc="3768732095" ref="photo-gallery"/>
+    <file name="get-swatched.css" crc="4219287636" ref="get-swatched"/>
+    <file name="index.css" crc="4186738011" ref="index"/>
+    <file name="news.css" crc="534377080" ref="news"/>
+    <file name="shop.css" crc="419808459" ref="shop"/>
+    <file name="weixi.css" crc="3758306719" ref="weixi"/>
+    <file name="swarnali.css" crc="534377080" ref="swarnali"/>
+    <file name="katy.css" crc="4016852457" ref="katy"/>
+    <file name="packages.css" crc="534377080" ref="packages"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:about:testimonials:get-swatched:contact:photo-gallery:shop:katy:weixi:swarnali:packages:news"/>
+    <file name="museutils.js" crc="17924269" ref="index:about:testimonials:get-swatched:contact:photo-gallery:shop:katy:weixi:swarnali:packages:news"/>
+    <file name="whatinput.js" crc="86476730" ref="index:about:testimonials:get-swatched:contact:photo-gallery:shop:katy:weixi:swarnali:packages:news"/>
+    <file name="museconfig.js" crc="144853533" ref="index:about:testimonials:get-swatched:contact:photo-gallery:shop:katy:weixi:swarnali:packages:news"/>
+    <file name="jquery.watch.js" crc="4240030481" ref="index:about:testimonials:get-swatched:contact:photo-gallery:shop:katy:weixi:swarnali:packages:news"/>
+    <file name="require.js" crc="3861931657" ref="index:about:testimonials:get-swatched:contact:photo-gallery:shop:katy:weixi:swarnali:packages:news"/>
+    <file name="jquery.musemenu.js" crc="4286030528" ref="index:about:testimonials:get-swatched:shop:contact:photo-gallery:katy:weixi:swarnali:packages:news"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:about:testimonials:get-swatched:shop:contact:photo-gallery:katy:weixi:swarnali:packages:news"/>
+  </folder>
+  <folder name="images">
+    <file name="pasted image 1600x1600.jpg" crc="3963103284" seo="true" ref="contact">
+      <caption webpage="contact" alt=""/>
+    </file>
+    <file name="u399-4.png" crc="4128202215" ref="contact"/>
+    <file name="u402-4.png" crc="3819805725" ref="contact"/>
+    <file name="pasted image 1024x1024.jpg" crc="4050419563" seo="true" ref="contact">
+      <caption webpage="contact" alt=""/>
+    </file>
+    <file name="pasted image 512x512.jpg" crc="240944146" seo="true" ref="contact">
+      <caption webpage="contact" alt=""/>
+    </file>
+    <file name="pasted image 635x887-crop-u479.jpg" crc="4060871775" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="pasted image 791x528.jpg" crc="4031760105" seo="true" ref="get-swatched">
+      <caption webpage="get-swatched" alt=""/>
+    </file>
+    <file name="pasted image 789x526.jpg" crc="4034603193" seo="true" ref="shop">
+      <caption webpage="shop" alt=""/>
+    </file>
+    <file name="pasted image 584x816-crop-u568.jpg" crc="4055001632" seo="true" ref="photo-gallery">
+      <caption webpage="photo-gallery" alt=""/>
+    </file>
+    <file name="pasted image 489x531-crop-u559.jpg" crc="3988810560" seo="true" ref="photo-gallery">
+      <caption webpage="photo-gallery" alt=""/>
+    </file>
+    <file name="pasted image 524x602-crop-u505.jpg" crc="4190175196" seo="true" ref="photo-gallery">
+      <caption webpage="photo-gallery" alt=""/>
+    </file>
+    <file name="pasted image 220x333-crop-u514.jpg" crc="183444398" seo="true" ref="photo-gallery">
+      <caption webpage="photo-gallery" alt=""/>
+    </file>
+    <file name="pasted image 476x652-crop-u523.jpg" crc="3945000862" seo="true" ref="photo-gallery">
+      <caption webpage="photo-gallery" alt=""/>
+    </file>
+    <file name="pasted image 540x960-crop-u586.jpg" crc="491534904" seo="true" ref="photo-gallery">
+      <caption webpage="photo-gallery" alt=""/>
+    </file>
+    <file name="pasted image 497x499.jpg" crc="226095695" seo="true" ref="katy">
+      <caption webpage="katy" alt=""/>
+    </file>
+    <file name="pasted image 398x451.jpg" crc="280330349" seo="true" ref="katy">
+      <caption webpage="katy" alt=""/>
+    </file>
+    <file name="pasted image 542x813-crop-u652.jpg" crc="335322881" seo="true" ref="katy">
+      <caption webpage="katy" alt=""/>
+    </file>
+    <file name="pasted image 530x729.jpg" crc="3917374081" seo="true" ref="katy">
+      <caption webpage="katy" alt=""/>
+    </file>
+    <file name="pasted image 514x586.jpg" crc="3775311053" seo="true" ref="katy">
+      <caption webpage="katy" alt=""/>
+    </file>
+    <file name="pasted image 598x807.jpg" crc="3842503858" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="pasted image 479x458.jpg" crc="4103913490" seo="true" ref="weixi">
+      <caption webpage="weixi" alt=""/>
+    </file>
+    <file name="pasted image 539x686.jpg" crc="500522395" seo="true" ref="weixi">
+      <caption webpage="weixi" alt=""/>
+    </file>
+    <file name="pasted image 540x813.jpg" crc="4061767708" seo="true" ref="weixi">
+      <caption webpage="weixi" alt=""/>
+    </file>
+    <file name="pasted image 390x600.jpg" crc="334407864" seo="true" ref="weixi">
+      <caption webpage="weixi" alt=""/>
+    </file>
+    <file name="pasted image 400x449.jpg" crc="4139122098" seo="true" ref="weixi">
+      <caption webpage="weixi" alt=""/>
+    </file>
+  </folder>
+  <file name="index.html" crc="3847112127" seo="true" mt="1507843343964" redirect="true"/>
+  <file name="about.html" crc="322095278" seo="true" mt="1507846937658" redirect="true"/>
+  <file name="testimonials.html" crc="3843554591" seo="true" mt="1507845275437" redirect="true"/>
+  <file name="get-swatched.html" crc="258234588" seo="true" mt="1507843343964" redirect="true"/>
+  <file name="contact.html" crc="480343194" seo="true" mt="1507845295910" redirect="true"/>
+  <file name="photo-gallery.html" crc="313209469" seo="true" mt="1507846994926" redirect="true"/>
+  <file name="shop.html" crc="4229896929" seo="true" mt="1507843644108" redirect="true"/>
+  <file name="katy.html" crc="3923138972" seo="true" mt="1507843343964" redirect="true"/>
+  <file name="weixi.html" crc="4017929766" seo="true" mt="1507846111851" redirect="true"/>
+  <file name="swarnali.html" crc="4022474865" seo="true" mt="1507843343964" redirect="true"/>
+  <file name="packages.html" crc="13184063" seo="true" mt="1507843343964" redirect="true"/>
+  <file name="news.html" crc="3935649774" seo="true" mt="1507843343964" redirect="true"/>
+</manifest>
