@@ -1,4 +1,4 @@
-<manifest alg="2" build="2017.1.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="www.ssbcosmetics.com" resolutions="1x" timestamp="1508372100174">
+<manifest alg="2" build="2017.1.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="www.ssbcosmetics.com" resolutions="1x" timestamp="1508372698638">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
     <file name="master_a-master.css" crc="134587196" ref="about:contact:testimonials:photo-gallery:get-swatched:index:news:shop:weixi:swarnali:katy:packages:for-the-bride:for-the-bridal-party:wedding-packages:henna-packages:party-packages"/>
