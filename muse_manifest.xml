@@ -1,8 +1,8 @@
-<manifest alg="2" build="2017.1.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="www.ssbcosmetics.com" resolutions="1x" timestamp="1508372698638">
+<manifest alg="2" build="2017.1.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="www.ssbcosmetics.com" resolutions="1x" timestamp="1508373457974">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
     <file name="master_a-master.css" crc="134587196" ref="about:contact:testimonials:photo-gallery:get-swatched:index:news:shop:weixi:swarnali:katy:packages:for-the-bride:for-the-bridal-party:wedding-packages:henna-packages:party-packages"/>
-    <file name="about.css" crc="432994180" ref="about"/>
+    <file name="about.css" crc="4097549964" ref="about"/>
     <file name="contact.css" crc="4281892236" ref="contact"/>
     <file name="testimonials.css" crc="4053996600" ref="testimonials"/>
     <file name="photo-gallery.css" crc="3768732095" ref="photo-gallery"/>
@@ -16,7 +16,7 @@
     <file name="packages.css" crc="3868649816" ref="packages"/>
     <file name="for-the-bride.css" crc="534377080" ref="for-the-bride"/>
     <file name="for-the-bridal-party.css" crc="534377080" ref="for-the-bridal-party"/>
-    <file name="wedding-packages.css" crc="415529553" ref="wedding-packages"/>
+    <file name="wedding-packages.css" crc="530358704" ref="wedding-packages"/>
     <file name="henna-packages.css" crc="534377080" ref="henna-packages"/>
     <file name="party-packages.css" crc="3912421641" ref="party-packages"/>
   </folder>
@@ -99,7 +99,7 @@
     <file name="pasted image 400x449.jpg" crc="4139122098" seo="true" ref="weixi">
       <caption webpage="weixi" alt=""/>
     </file>
-    <file name="pasted image 894x628-crop-u1853.jpg" crc="4265183730" seo="true" ref="about">
+    <file name="pasted image 894x628-crop-u1853.jpg" crc="482438982" seo="true" ref="about">
       <caption webpage="about" alt=""/>
     </file>
     <file name="pasted image 1049x618.jpg" crc="234256496" seo="true" ref="packages">
@@ -122,7 +122,7 @@
     </file>
   </folder>
   <file name="index.html" crc="3847112127" seo="true" mt="1507843343964" redirect="true"/>
-  <file name="about.html" crc="82773900" seo="true" mt="1508353376645" redirect="true"/>
+  <file name="about.html" crc="4138669590" seo="true" mt="1508373180787" redirect="true"/>
   <file name="testimonials.html" crc="3843554591" seo="true" mt="1507845275437" redirect="true"/>
   <file name="get-swatched.html" crc="258234588" seo="true" mt="1507843343964" redirect="true"/>
   <file name="contact.html" crc="3888712199" seo="true" mt="1507850789258" redirect="true"/>
@@ -131,9 +131,9 @@
   <file name="katy.html" crc="3923138972" seo="true" mt="1507843343964" redirect="true"/>
   <file name="weixi.html" crc="4017929766" seo="true" mt="1507846111851" redirect="true"/>
   <file name="swarnali.html" crc="4022474865" seo="true" mt="1507843343964" redirect="true"/>
-  <file name="packages.html" crc="77931002" seo="true" mt="1508350636157" redirect="true"/>
+  <file name="packages.html" crc="3808701447" seo="true" mt="1508372791278" redirect="true"/>
   <file name="news.html" crc="381428874" seo="true" mt="1507850990644" redirect="true"/>
-  <file name="wedding-packages.html" crc="4102547610" seo="true" mt="1508351357651" redirect="true"/>
+  <file name="wedding-packages.html" crc="3783179226" seo="true" mt="1508373448522" redirect="true"/>
   <file name="henna-packages.html" crc="3791980051" seo="true" mt="1508350730335" redirect="true"/>
   <file name="party-packages.html" crc="3954165652" seo="true" mt="1508371984180" redirect="true"/>
   <file name="for-the-bridal-party.html" crc="4016937578" seo="true" mt="1508351439021" redirect="true"/>
