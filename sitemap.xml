@@ -11,11 +11,11 @@
   </url>
   <url>
     <loc>http://www.ssbcosmetics.com/about.html</loc>
-    <lastmod>2017-10-12</lastmod>
+    <lastmod>2017-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://www.ssbcosmetics.com/images/pasted%20image%20598x807.jpg</image:loc>
+      <image:loc>http://www.ssbcosmetics.com/images/pasted%20image%20894x628-crop-u1853.jpg</image:loc>
     </image:image>
   </url>
   <url>
@@ -131,13 +131,61 @@
   </url>
   <url>
     <loc>http://www.ssbcosmetics.com/packages.html</loc>
-    <lastmod>2017-10-12</lastmod>
+    <lastmod>2017-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://www.ssbcosmetics.com/images/pasted%20image%201049x618.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.ssbcosmetics.com/images/pasted%20image%20490x655.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.ssbcosmetics.com/images/pasted%20image%20548x517.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>http://www.ssbcosmetics.com/news.html</loc>
     <lastmod>2017-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://www.ssbcosmetics.com/images/pasted%20image%201080x671-crop-u1712.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://www.ssbcosmetics.com/wedding-packages.html</loc>
+    <lastmod>2017-10-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://www.ssbcosmetics.com/images/pasted%20image%20598x851.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.ssbcosmetics.com/images/pasted%20image%20766x493.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://www.ssbcosmetics.com/henna-packages.html</loc>
+    <lastmod>2017-10-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.ssbcosmetics.com/party-packages.html</loc>
+    <lastmod>2017-10-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.ssbcosmetics.com/for-the-bridal-party.html</loc>
+    <lastmod>2017-10-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.ssbcosmetics.com/for-the-bride.html</loc>
+    <lastmod>2017-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
