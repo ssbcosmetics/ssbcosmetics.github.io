@@ -1,181 +1,125 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
-<head>
-<title> </title>
-<!-- 09/20/2016 -->
-<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<meta  name="generator" content="Org-mode" />
-<meta  name="author" content="SSB Cosmetics" />
-<style type="text/css">
- <!--/*--><![CDATA[/*><!--*/
-  .title  { text-align: center; }
-  .todo   { font-family: monospace; color: red; }
-  .done   { color: green; }
-  .tag    { background-color: #eee; font-family: monospace;
-            padding: 2px; font-size: 80%; font-weight: normal; }
-  .timestamp { color: #bebebe; }
-  .timestamp-kwd { color: #5f9ea0; }
-  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
-  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
-  .center { margin-left: auto; margin-right: auto; text-align: center; }
-  .underline { text-decoration: underline; }
-  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
-  p.verse { margin-left: 3%; }
-  pre {
-    border: 1px solid #ccc;
-    box-shadow: 3px 3px 3px #eee;
-    padding: 8pt;
-    font-family: monospace;
-    overflow: auto;
-    margin: 1.2em;
-  }
-  pre.src {
-    position: relative;
-    overflow: visible;
-    padding-top: 1.2em;
-  }
-  pre.src:before {
-    display: none;
-    position: absolute;
-    background-color: white;
-    top: -10px;
-    right: 10px;
-    padding: 3px;
-    border: 1px solid black;
-  }
-  pre.src:hover:before { display: inline;}
-  pre.src-sh:before    { content: 'sh'; }
-  pre.src-bash:before  { content: 'sh'; }
-  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
-  pre.src-R:before     { content: 'R'; }
-  pre.src-perl:before  { content: 'Perl'; }
-  pre.src-java:before  { content: 'Java'; }
-  pre.src-sql:before   { content: 'SQL'; }
+<!DOCTYPE html>
+<html class="nojs html css_verticalspacer" lang="en-US">
+ <head>
 
-  table { border-collapse:collapse; }
-  caption.t-above { caption-side: top; }
-  caption.t-bottom { caption-side: bottom; }
-  td, th { vertical-align:top;  }
-  th.right  { text-align: center;  }
-  th.left   { text-align: center;   }
-  th.center { text-align: center; }
-  td.right  { text-align: right;  }
-  td.left   { text-align: left;   }
-  td.center { text-align: center; }
-  dt { font-weight: bold; }
-  .footpara:nth-child(2) { display: inline; }
-  .footpara { display: block; }
-  .footdef  { margin-bottom: 1em; }
-  .figure { padding: 1em; }
-  .figure p { text-align: center; }
-  .inlinetask {
-    padding: 10px;
-    border: 2px solid gray;
-    margin: 10px;
-    background: #ffffcc;
-  }
-  #org-div-home-and-up
-   { text-align: right; font-size: 70%; white-space: nowrap; }
-  textarea { overflow-x: auto; }
-  .linenr { font-size: smaller }
-  .code-highlighted { background-color: #ffff00; }
-  .org-info-js_info-navigation { border-style: none; }
-  #org-info-js_console-label
-    { font-size: 10px; font-weight: bold; white-space: nowrap; }
-  .org-info-js_search-highlight
-    { background-color: #ffff00; color: #000000; font-weight: bold; }
-  /*]]>*/-->
-</style>
-<link rel="stylesheet" type="text/css" href="style.css" />
-<script src="https://www.w3counter.com/tracker.js?id=104587"></script>
-<script type="text/javascript">
-/*
-@licstart  The following is the entire license notice for the
-JavaScript code in this tag.
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+  <meta name="generator" content="2017.1.0.379"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  
+  <script type="text/javascript">
+   // Update the 'nojs'/'js' class on the html node
+document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
-Copyright (C) 2012-2013 Free Software Foundation, Inc.
-
-The JavaScript code in this tag is free software: you can
-redistribute it and/or modify it under the terms of the GNU
-General Public License (GNU GPL) as published by the Free Software
-Foundation, either version 3 of the License, or (at your option)
-any later version.  The code is distributed WITHOUT ANY WARRANTY;
-without even the implied warranty of MERCHANTABILITY or FITNESS
-FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
-
-As additional permission under GNU GPL version 3 section 7, you
-may distribute non-source (e.g., minimized or compacted) forms of
-that code without the copy of the GNU GPL normally required by
-section 4, provided you include this license notice and a URL
-through which recipients can access the Corresponding Source.
-
-
-@licend  The above is the entire license notice
-for the JavaScript code in this tag.
-*/
-<!--/*--><![CDATA[/*><!--*/
- function CodeHighlightOn(elem, id)
- {
-   var target = document.getElementById(id);
-   if(null != target) {
-     elem.cacheClassElem = elem.className;
-     elem.cacheClassTarget = target.className;
-     target.className = "code-highlighted";
-     elem.className   = "code-highlighted";
-   }
- }
- function CodeHighlightOff(elem, id)
- {
-   var target = document.getElementById(id);
-   if(elem.cacheClassElem)
-     elem.className = elem.cacheClassElem;
-   if(elem.cacheClassTarget)
-     target.className = elem.cacheClassTarget;
- }
-/*]]>*///-->
+// Check that all required assets are uploaded and up-to-date
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musemenu.js", "jquery.watch.js", "require.js", "about.css"], "outOfDate":[]};
 </script>
-</head>
-<body>
-<div id="content">
-<h1 class="title"> </h1>
-<div id="top">
-<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+  
+  <title>About</title>
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
+  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=134587196"/>
+  <link rel="stylesheet" type="text/css" href="css/about.css?crc=4097549964" id="pagesheet"/>
+  <!-- JS includes -->
+  <!--[if lt IE 9]>
+  <script src="scripts/html5shiv.js?crc=4241844378" type="text/javascript"></script>
+  <![endif]-->
+   </head>
+ <body>
 
+  <div class="clearfix borderbox" id="page"><!-- group -->
+   <div class="clearfix grpelem" id="pmenuu1302"><!-- column -->
+    <nav class="MenuBar clearfix colelem" id="menuu1302"><!-- horizontal box -->
+     <div class="MenuItemContainer clearfix grpelem" id="u1310"><!-- vertical box -->
+      <a class="nonblock nontext MenuItem MenuItemWithSubMenu borderbox clearfix colelem" id="u1313" href="index.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u1314-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><p>Home</p></div></a>
+     </div>
+     <div class="MenuItemContainer clearfix grpelem" id="u1303"><!-- vertical box -->
+      <a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive borderbox clearfix colelem" id="u1304" href="about.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u1305-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><p>About</p></div></a>
+     </div>
+     <div class="MenuItemContainer clearfix grpelem" id="u1347"><!-- vertical box -->
+      <a class="nonblock nontext MenuItem MenuItemWithSubMenu borderbox clearfix colelem" id="u1350" href="get-swatched.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u1352-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><p>Get Swatched</p></div></a>
+     </div>
+     <div class="MenuItemContainer clearfix grpelem" id="u1368"><!-- vertical box -->
+      <a class="nonblock nontext MenuItem MenuItemWithSubMenu borderbox clearfix colelem" id="u1369" href="photo-gallery.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u1372-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><p>Photo Gallery</p></div></a>
+     </div>
+     <div class="MenuItemContainer clearfix grpelem" id="u1389"><!-- vertical box -->
+      <a class="nonblock nontext MenuItem MenuItemWithSubMenu borderbox clearfix colelem" id="u1390" href="shop.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u1391-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><p>Shop</p></div></a>
+     </div>
+     <div class="MenuItemContainer clearfix grpelem" id="u1410"><!-- vertical box -->
+      <a class="nonblock nontext MenuItem MenuItemWithSubMenu borderbox clearfix colelem" id="u1413" href="testimonials.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u1414-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><p>Testimonials</p></div></a>
+     </div>
+     <div class="MenuItemContainer clearfix grpelem" id="u1469"><!-- vertical box -->
+      <a class="nonblock nontext MenuItem MenuItemWithSubMenu borderbox clearfix colelem" id="u1470" href="packages.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u1473-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><p>Packages</p></div></a>
+     </div>
+     <div class="MenuItemContainer clearfix grpelem" id="u1512"><!-- vertical box -->
+      <a class="nonblock nontext MenuItem MenuItemWithSubMenu borderbox clearfix colelem" id="u1515" href="news.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u1517-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><p>News</p></div></a>
+     </div>
+     <div class="MenuItemContainer clearfix grpelem" id="u1431"><!-- vertical box -->
+      <a class="nonblock nontext MenuItem MenuItemWithSubMenu borderbox clearfix colelem" id="u1432" href="contact.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u1435-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><p>Contact</p></div></a>
+     </div>
+    </nav>
+    <div class="clearfix colelem" id="pu428-14"><!-- group -->
+     <div class="clearfix grpelem" id="u428-14" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+      <p id="u428-2">Philosophy</p>
+      <p>&nbsp;</p>
+      <p>I created this brand to empower women. So we don't have to feel that what we put on our faces and body is dictated by big fashion industry. We should wear what feels natural to our skin and matches our skin tones perfectly. We should be proud of our skin and and who we are and what we do.</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+     </div>
+     <div class="clearfix grpelem" id="u1704-7" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+      <p id="u1704-2">About Me</p>
+      <p>&nbsp;</p>
+      <p>I am a PhD Student in Biomedical Engineering. Research is my passion and dance music and make-up are my hobbies. I'm always looking for new make-up looks for dance as well as research. I have been doing math ever since I can remember, and I've been wearing Kohl Eyeliner even before then. I know its really hard to find time for yourself in grad school (half my days are roll out of bed days), but putting the effort is so worth the results (literally, I get better results in my experiments when I look good). I just want to show that, all because we are in academia, we don't have to give up all the girly things in life. In this blog, I will share new products that I love and hate. I will post new things that I learn as well as tips and tricks to fast clean, lab-appropriate, looks!</p>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="u1701-21" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+     <p>I grew up in a culture where engineers, doctors, and professors are admired, as are artists and musicians. As a child, I took lessons in piano, violin, flute, painting, and art. To the disappointment of many, I wasn't particularly good at any of those. Fortunately, I was great at school. I love math and science, but I could not for the life of me put colors together on paper. I stopped trying in 8th grade, when my art teacher held up my work and announced to the class, &quot;Can't you see everyone is better than you? You have no artistic talent.&quot; There I was at 13, with zero creative ability.</p>
+     <p>&nbsp;</p>
+     <p>Dance, I loved. God did not bless me with the body of a dancer, but God sure gave me the love of drama. As a dancer, I could be anyone I wanted. I could feel anything I wanted. Anger, Love, Shame, Joy, Surprise, Pride, Fear, Devotion... I could feel any range of&nbsp; emotion within a small 7 minute dance piece. I loved it. From dance, I learned how to put on make-up--how to wear eyeliner and foundation. I never really thought anything of it.</p>
+     <p>&nbsp;</p>
+     <p>I graduated first in my high school class, and went to Johns Hopkins where I studied Biomedical Engineering and Applied Math and Statistics. I continued to dance throughout</p>
+     <p>college, and finally graduated from both dance and college.</p>
+     <p>&nbsp;</p>
+     <p>It was not till graduate school did I have the resources (financially) to purchase make-up. One day, I finally got the courage to ask one of the Sephora agents to give me a new look for the coming winter. It took a LOT of courage, because I don't like people touching my face, or looking at me that closely--way too self conscious for that nonsense. She did half my face, and handed me the brushes and pencils and said, &quot;Your turn!&quot; That day I learned that I could blend colors and draw perfect lines with make-up brushes.</p>
+     <p>&nbsp;</p>
+     <p>What I want my readers to know, is that I'm not pushing make-up as a standard of beauty.&nbsp; By no means at all, do you have to wear make up to be beautiful. I'm sharing a new way to express yourself. Make-up is merely my medium in which I can create art--a way that I can share with the world how I'm feeling, whether its invincible, shy, confident, upset, or ready to party.</p>
+     <p>&nbsp;</p>
+     <p>And for my youngest readers (and I'm going to sound all parental), education is what will help us conquer the world. School first, hobbies second. Please don't waste your parents money on make-up! =)]</p>
+    </div>
+   </div>
+   <div class="clip_frame grpelem" id="u1853" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- image -->
+    <img class="block" id="u1853_img" src="images/pasted%20image%20894x628-crop-u1853.jpg?crc=482438982" alt="" width="328" height="303"/>
+   </div>
+   <div class="verticalspacer" data-offset-top="1260" data-content-above-spacer="1259" data-content-below-spacer="61" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+  </div>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   // Decide weather to suppress missing file error or not based on preference setting
+var suppressMissingFileError = false
+</script>
+  <script type="text/javascript">
+   window.Muse.assets.check=function(d){if(!window.Muse.assets.checked){window.Muse.assets.checked=!0;var b={},c=function(a,b){if(window.getComputedStyle){var c=window.getComputedStyle(a,null);return c&&c.getPropertyValue(b)||c&&c[b]||""}if(document.documentElement.currentStyle)return(c=a.currentStyle)&&c[b]||a.style&&a.style[b]||"";return""},a=function(a){if(a.match(/^rgb/))return a=a.replace(/\s+/g,"").match(/([\d\,]+)/gi)[0].split(","),(parseInt(a[0])<<16)+(parseInt(a[1])<<8)+parseInt(a[2]);if(a.match(/^\#/))return parseInt(a.substr(1),
+16);return 0},g=function(g){for(var f=document.getElementsByTagName("link"),h=0;h<f.length;h++)if("text/css"==f[h].type){var i=(f[h].href||"").match(/\/?css\/([\w\-]+\.css)\?crc=(\d+)/);if(!i||!i[1]||!i[2])break;b[i[1]]=i[2]}f=document.createElement("div");f.className="version";f.style.cssText="display:none; width:1px; height:1px;";document.getElementsByTagName("body")[0].appendChild(f);for(h=0;h<Muse.assets.required.length;){var i=Muse.assets.required[h],l=i.match(/([\w\-\.]+)\.(\w+)$/),k=l&&l[1]?
+l[1]:null,l=l&&l[2]?l[2]:null;switch(l.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");f.className+=" "+k;k=a(c(f,"color"));l=a(c(f,"backgroundColor"));k!=0||l!=0?(Muse.assets.required.splice(h,1),"undefined"!=typeof b[i]&&(k!=b[i]>>>24||l!=(b[i]&16777215))&&Muse.assets.outOfDate.push(i)):h++;f.className="version";break;case "js":h++;break;default:throw Error("Unsupported file type: "+l);}}d?d().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
+f.parentNode.removeChild(f);if(Muse.assets.outOfDate.length||Muse.assets.required.length)f="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",g&&Muse.assets.outOfDate.length&&(f+="\nOut of date: "+Muse.assets.outOfDate.join(",")),g&&Muse.assets.required.length&&(f+="\nMissing: "+Muse.assets.required.join(",")),suppressMissingFileError?(f+="\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.",console.log(f)):alert(f)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?
+setTimeout(function(){g(!0)},5E3):g()}};
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.musemenu","jquery.watch"],function(d){var $ = d;$(document).ready(function(){try{
+window.Muse.assets.check($);/* body */
+Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
+Muse.Utils.prepHyperlinks(true);/* body */
+Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
+Muse.Utils.initWidget('.MenuBar', ['#bp_infinity'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
+Muse.Utils.fullPage('#page');/* 100% height page */
+Muse.Utils.showWidgetsWhenReady();/* body */
+Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
+}catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};
 
-<colgroup>
-<col  class="left" />
-
-<col  class="left" />
-
-<col  class="left" />
-
-<col  class="left" />
-
-<col  class="left" />
-</colgroup>
-<tbody>
-<tr>
-<td class="left"><a href="index.html">Home</a></td>
-<td class="left"><a href="testimonials.html">Testimonials</a></td>
-<td class="left"><a href="about.html">About</a></td>
-<td class="left"><a href="schedule.html">Schedule an appointment</a></td>
-<td class="left"><a href="order.html">Reorder Now</a></td>
-</tr>
-</tbody>
-</table>
-<hr></hr>
-</div>
-
-<div id="outline-container-sec-1" class="outline-2">
-<h2 id="sec-1">About Me</h2>
-<div class="outline-text-2" id="text-1">
-<p>
-<a href="http://www.sciencestylenbeauty.com/about-2">Meet the engineer behind SSB Cosmetics!</a>
-</p>
-</div>
-</div>
-</div>
-</body>
+</script>
+  <!-- RequireJS script -->
+  <script src="scripts/require.js?crc=3861931657" type="text/javascript" async data-main="scripts/museconfig.js?crc=144853533" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
+   </body>
 </html>
